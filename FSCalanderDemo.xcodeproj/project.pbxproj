@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B890FB794E2AE60373B97F2 /* Pods_FSCalanderDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F5B3CCDCD2942174B99DDA /* Pods_FSCalanderDemoTests.framework */; };
+		6EB7632D23D479D245BFB2C9 /* Pods_FSCalanderDemo_FSCalanderDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2652045E7ECC009C2991D4 /* Pods_FSCalanderDemo_FSCalanderDemoUITests.framework */; };
+		A4FE959B2A14D1420019FA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE959A2A14D1420019FA5B /* AppDelegate.swift */; };
+		A4FE959D2A14D1420019FA5B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE959C2A14D1420019FA5B /* SceneDelegate.swift */; };
+		A4FE959F2A14D1420019FA5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE959E2A14D1420019FA5B /* ViewController.swift */; };
+		A4FE95A22A14D1420019FA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FE95A02A14D1420019FA5B /* Main.storyboard */; };
+		A4FE95A52A14D1430019FA5B /* FSCalanderDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4FE95A32A14D1430019FA5B /* FSCalanderDemo.xcdatamodeld */; };
+		A4FE95A72A14D1460019FA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FE95A62A14D1460019FA5B /* Assets.xcassets */; };
+		A4FE95AA2A14D1460019FA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FE95A82A14D1460019FA5B /* LaunchScreen.storyboard */; };
+		A4FE95B52A14D1460019FA5B /* FSCalanderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE95B42A14D1460019FA5B /* FSCalanderDemoTests.swift */; };
+		A4FE95BF2A14D1460019FA5B /* FSCalanderDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE95BE2A14D1460019FA5B /* FSCalanderDemoUITests.swift */; };
+		A4FE95C12A14D1460019FA5B /* FSCalanderDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE95C02A14D1460019FA5B /* FSCalanderDemoUITestsLaunchTests.swift */; };
+		B1951C152B2345BD004074DD /* Pods_FSCalanderDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB69F0CE32F5F8508B1096A /* Pods_FSCalanderDemo.framework */; };
+		B1951C162B2345BD004074DD /* Pods_FSCalanderDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCB69F0CE32F5F8508B1096A /* Pods_FSCalanderDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4FE95B12A14D1460019FA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FE958F2A14D1420019FA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FE95962A14D1420019FA5B;
+			remoteInfo = FSCalanderDemo;
+		};
+		A4FE95BB2A14D1460019FA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4FE958F2A14D1420019FA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4FE95962A14D1420019FA5B;
+			remoteInfo = FSCalanderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1951C172B2345BD004074DD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1951C162B2345BD004074DD /* Pods_FSCalanderDemo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5667D891F27AD80DA94F0E27 /* Pods-FSCalanderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCalanderDemo.release.xcconfig"; path = "Target Support Files/Pods-FSCalanderDemo/Pods-FSCalanderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		75F5B3CCDCD2942174B99DDA /* Pods_FSCalanderDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSCalanderDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F898D9BB7DCE59C151AA451 /* Pods-FSCalanderDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCalanderDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FSCalanderDemoTests/Pods-FSCalanderDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		961A051B65300688B9A39F3E /* Pods-FSCalanderDemo-FSCalanderDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCalanderDemo-FSCalanderDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-FSCalanderDemo-FSCalanderDemoUITests/Pods-FSCalanderDemo-FSCalanderDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A5E2945DD630F058DED0069 /* Pods-FSCalanderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCalanderDemo.debug.xcconfig"; path = "Target Support Files/Pods-FSCalanderDemo/Pods-FSCalanderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9CF60B57454311BB544BFE20 /* Pods-FSCalanderDemo-FSCalanderDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCalanderDemo-FSCalanderDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-FSCalanderDemo-FSCalanderDemoUITests/Pods-FSCalanderDemo-FSCalanderDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4FE95972A14D1420019FA5B /* FSCalanderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCalanderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE959A2A14D1420019FA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FE959C2A14D1420019FA5B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4FE959E2A14D1420019FA5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FE95A12A14D1420019FA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FE95A42A14D1430019FA5B /* FSCalanderDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FSCalanderDemo.xcdatamodel; sourceTree = "<group>"; };
+		A4FE95A62A14D1460019FA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FE95A92A14D1460019FA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FE95AB2A14D1460019FA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FE95B02A14D1460019FA5B /* FSCalanderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCalanderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE95B42A14D1460019FA5B /* FSCalanderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalanderDemoTests.swift; sourceTree = "<group>"; };
+		A4FE95BA2A14D1460019FA5B /* FSCalanderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCalanderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE95BE2A14D1460019FA5B /* FSCalanderDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalanderDemoUITests.swift; sourceTree = "<group>"; };
+		A4FE95C02A14D1460019FA5B /* FSCalanderDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalanderDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCB69F0CE32F5F8508B1096A /* Pods_FSCalanderDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSCalanderDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B854983BCA08163D428B08 /* Pods-FSCalanderDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSCalanderDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FSCalanderDemoTests/Pods-FSCalanderDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2652045E7ECC009C2991D4 /* Pods_FSCalanderDemo_FSCalanderDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSCalanderDemo_FSCalanderDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FE95942A14D1420019FA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1951C152B2345BD004074DD /* Pods_FSCalanderDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE95AD2A14D1460019FA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B890FB794E2AE60373B97F2 /* Pods_FSCalanderDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE95B72A14D1460019FA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB7632D23D479D245BFB2C9 /* Pods_FSCalanderDemo_FSCalanderDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C4B33CDE5FDB09E20F9705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB69F0CE32F5F8508B1096A /* Pods_FSCalanderDemo.framework */,
+				FA2652045E7ECC009C2991D4 /* Pods_FSCalanderDemo_FSCalanderDemoUITests.framework */,
+				75F5B3CCDCD2942174B99DDA /* Pods_FSCalanderDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4FE958E2A14D1420019FA5B = {
+			isa = PBXGroup;
+			children = (
+				A4FE95992A14D1420019FA5B /* FSCalanderDemo */,
+				A4FE95B32A14D1460019FA5B /* FSCalanderDemoTests */,
+				A4FE95BD2A14D1460019FA5B /* FSCalanderDemoUITests */,
+				A4FE95982A14D1420019FA5B /* Products */,
+				AF2370E2D49B5C22E42C0D52 /* Pods */,
+				11C4B33CDE5FDB09E20F9705 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FE95982A14D1420019FA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE95972A14D1420019FA5B /* FSCalanderDemo.app */,
+				A4FE95B02A14D1460019FA5B /* FSCalanderDemoTests.xctest */,
+				A4FE95BA2A14D1460019FA5B /* FSCalanderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FE95992A14D1420019FA5B /* FSCalanderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE959A2A14D1420019FA5B /* AppDelegate.swift */,
+				A4FE959C2A14D1420019FA5B /* SceneDelegate.swift */,
+				A4FE959E2A14D1420019FA5B /* ViewController.swift */,
+				A4FE95A02A14D1420019FA5B /* Main.storyboard */,
+				A4FE95A62A14D1460019FA5B /* Assets.xcassets */,
+				A4FE95A82A14D1460019FA5B /* LaunchScreen.storyboard */,
+				A4FE95AB2A14D1460019FA5B /* Info.plist */,
+				A4FE95A32A14D1430019FA5B /* FSCalanderDemo.xcdatamodeld */,
+			);
+			path = FSCalanderDemo;
+			sourceTree = "<group>";
+		};
+		A4FE95B32A14D1460019FA5B /* FSCalanderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE95B42A14D1460019FA5B /* FSCalanderDemoTests.swift */,
+			);
+			path = FSCalanderDemoTests;
+			sourceTree = "<group>";
+		};
+		A4FE95BD2A14D1460019FA5B /* FSCalanderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE95BE2A14D1460019FA5B /* FSCalanderDemoUITests.swift */,
+				A4FE95C02A14D1460019FA5B /* FSCalanderDemoUITestsLaunchTests.swift */,
+			);
+			path = FSCalanderDemoUITests;
+			sourceTree = "<group>";
+		};
+		AF2370E2D49B5C22E42C0D52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A5E2945DD630F058DED0069 /* Pods-FSCalanderDemo.debug.xcconfig */,
+				5667D891F27AD80DA94F0E27 /* Pods-FSCalanderDemo.release.xcconfig */,
+				961A051B65300688B9A39F3E /* Pods-FSCalanderDemo-FSCalanderDemoUITests.debug.xcconfig */,
+				9CF60B57454311BB544BFE20 /* Pods-FSCalanderDemo-FSCalanderDemoUITests.release.xcconfig */,
+				D8B854983BCA08163D428B08 /* Pods-FSCalanderDemoTests.debug.xcconfig */,
+				8F898D9BB7DCE59C151AA451 /* Pods-FSCalanderDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FE95962A14D1420019FA5B /* FSCalanderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE95C42A14D1460019FA5B /* Build configuration list for PBXNativeTarget "FSCalanderDemo" */;
+			buildPhases = (
+				B56F047ACEA8EAF3273A8981 /* [CP] Check Pods Manifest.lock */,
+				A4FE95932A14D1420019FA5B /* Sources */,
+				A4FE95942A14D1420019FA5B /* Frameworks */,
+				A4FE95952A14D1420019FA5B /* Resources */,
+				D9E63B33DEBE53FAB5F9E83E /* [CP] Embed Pods Frameworks */,
+				B1951C172B2345BD004074DD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalanderDemo;
+			productName = FSCalanderDemo;
+			productReference = A4FE95972A14D1420019FA5B /* FSCalanderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4FE95AF2A14D1460019FA5B /* FSCalanderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE95C72A14D1460019FA5B /* Build configuration list for PBXNativeTarget "FSCalanderDemoTests" */;
+			buildPhases = (
+				85EE6FE933F1814E1B2C4E63 /* [CP] Check Pods Manifest.lock */,
+				A4FE95AC2A14D1460019FA5B /* Sources */,
+				A4FE95AD2A14D1460019FA5B /* Frameworks */,
+				A4FE95AE2A14D1460019FA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FE95B22A14D1460019FA5B /* PBXTargetDependency */,
+			);
+			name = FSCalanderDemoTests;
+			productName = FSCalanderDemoTests;
+			productReference = A4FE95B02A14D1460019FA5B /* FSCalanderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4FE95B92A14D1460019FA5B /* FSCalanderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE95CA2A14D1460019FA5B /* Build configuration list for PBXNativeTarget "FSCalanderDemoUITests" */;
+			buildPhases = (
+				85FA4495C18586D7A756C5C1 /* [CP] Check Pods Manifest.lock */,
+				A4FE95B62A14D1460019FA5B /* Sources */,
+				A4FE95B72A14D1460019FA5B /* Frameworks */,
+				A4FE95B82A14D1460019FA5B /* Resources */,
+				798C73F1874D5D954528D8C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4FE95BC2A14D1460019FA5B /* PBXTargetDependency */,
+			);
+			name = FSCalanderDemoUITests;
+			productName = FSCalanderDemoUITests;
+			productReference = A4FE95BA2A14D1460019FA5B /* FSCalanderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FE958F2A14D1420019FA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A4FE95962A14D1420019FA5B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A4FE95AF2A14D1460019FA5B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A4FE95962A14D1420019FA5B;
+					};
+					A4FE95B92A14D1460019FA5B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A4FE95962A14D1420019FA5B;
+					};
+				};
+			};
+			buildConfigurationList = A4FE95922A14D1420019FA5B /* Build configuration list for PBXProject "FSCalanderDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FE958E2A14D1420019FA5B;
+			productRefGroup = A4FE95982A14D1420019FA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FE95962A14D1420019FA5B /* FSCalanderDemo */,
+				A4FE95AF2A14D1460019FA5B /* FSCalanderDemoTests */,
+				A4FE95B92A14D1460019FA5B /* FSCalanderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FE95952A14D1420019FA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE95AA2A14D1460019FA5B /* LaunchScreen.storyboard in Resources */,
+				A4FE95A72A14D1460019FA5B /* Assets.xcassets in Resources */,
+				A4FE95A22A14D1420019FA5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE95AE2A14D1460019FA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE95B82A14D1460019FA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		798C73F1874D5D954528D8C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSCalanderDemo-FSCalanderDemoUITests/Pods-FSCalanderDemo-FSCalanderDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSCalanderDemo-FSCalanderDemoUITests/Pods-FSCalanderDemo-FSCalanderDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSCalanderDemo-FSCalanderDemoUITests/Pods-FSCalanderDemo-FSCalanderDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EE6FE933F1814E1B2C4E63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSCalanderDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85FA4495C18586D7A756C5C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSCalanderDemo-FSCalanderDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56F047ACEA8EAF3273A8981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FSCalanderDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9E63B33DEBE53FAB5F9E83E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSCalanderDemo/Pods-FSCalanderDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FSCalanderDemo/Pods-FSCalanderDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FSCalanderDemo/Pods-FSCalanderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FE95932A14D1420019FA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE959F2A14D1420019FA5B /* ViewController.swift in Sources */,
+				A4FE959B2A14D1420019FA5B /* AppDelegate.swift in Sources */,
+				A4FE959D2A14D1420019FA5B /* SceneDelegate.swift in Sources */,
+				A4FE95A52A14D1430019FA5B /* FSCalanderDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE95AC2A14D1460019FA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE95B52A14D1460019FA5B /* FSCalanderDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FE95B62A14D1460019FA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FE95C12A14D1460019FA5B /* FSCalanderDemoUITestsLaunchTests.swift in Sources */,
+				A4FE95BF2A14D1460019FA5B /* FSCalanderDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4FE95B22A14D1460019FA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FE95962A14D1420019FA5B /* FSCalanderDemo */;
+			targetProxy = A4FE95B12A14D1460019FA5B /* PBXContainerItemProxy */;
+		};
+		A4FE95BC2A14D1460019FA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4FE95962A14D1420019FA5B /* FSCalanderDemo */;
+			targetProxy = A4FE95BB2A14D1460019FA5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4FE95A02A14D1420019FA5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FE95A12A14D1420019FA5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FE95A82A14D1460019FA5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FE95A92A14D1460019FA5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FE95C22A14D1460019FA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FE95C32A14D1460019FA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FE95C52A14D1460019FA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5E2945DD630F058DED0069 /* Pods-FSCalanderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FSCalanderDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codegloTech.FSCalanderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4FE95C62A14D1460019FA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5667D891F27AD80DA94F0E27 /* Pods-FSCalanderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FSCalanderDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codegloTech.FSCalanderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4FE95C82A14D1460019FA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B854983BCA08163D428B08 /* Pods-FSCalanderDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codegloTech.FSCalanderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSCalanderDemo.app/FSCalanderDemo";
+			};
+			name = Debug;
+		};
+		A4FE95C92A14D1460019FA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F898D9BB7DCE59C151AA451 /* Pods-FSCalanderDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codegloTech.FSCalanderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSCalanderDemo.app/FSCalanderDemo";
+			};
+			name = Release;
+		};
+		A4FE95CB2A14D1460019FA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 961A051B65300688B9A39F3E /* Pods-FSCalanderDemo-FSCalanderDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codegloTech.FSCalanderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSCalanderDemo;
+			};
+			name = Debug;
+		};
+		A4FE95CC2A14D1460019FA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF60B57454311BB544BFE20 /* Pods-FSCalanderDemo-FSCalanderDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codegloTech.FSCalanderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSCalanderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FE95922A14D1420019FA5B /* Build configuration list for PBXProject "FSCalanderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE95C22A14D1460019FA5B /* Debug */,
+				A4FE95C32A14D1460019FA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE95C42A14D1460019FA5B /* Build configuration list for PBXNativeTarget "FSCalanderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE95C52A14D1460019FA5B /* Debug */,
+				A4FE95C62A14D1460019FA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE95C72A14D1460019FA5B /* Build configuration list for PBXNativeTarget "FSCalanderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE95C82A14D1460019FA5B /* Debug */,
+				A4FE95C92A14D1460019FA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE95CA2A14D1460019FA5B /* Build configuration list for PBXNativeTarget "FSCalanderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE95CB2A14D1460019FA5B /* Debug */,
+				A4FE95CC2A14D1460019FA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4FE95A32A14D1430019FA5B /* FSCalanderDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4FE95A42A14D1430019FA5B /* FSCalanderDemo.xcdatamodel */,
+			);
+			currentVersion = A4FE95A42A14D1430019FA5B /* FSCalanderDemo.xcdatamodel */;
+			path = FSCalanderDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4FE958F2A14D1420019FA5B /* Project object */;
+}

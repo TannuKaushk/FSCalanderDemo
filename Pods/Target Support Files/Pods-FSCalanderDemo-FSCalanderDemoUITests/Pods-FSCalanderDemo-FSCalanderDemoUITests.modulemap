@@ -1,0 +1,6 @@
+framework module Pods_FSCalanderDemo_FSCalanderDemoUITests {
+  umbrella header "Pods-FSCalanderDemo-FSCalanderDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
